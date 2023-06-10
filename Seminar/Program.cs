@@ -33,17 +33,18 @@
 
 // string DoubleSys(int n){
 //     string num = "";
-//     while(n / 2 != 0){
+//     while(n != 0){
 //         num += Convert.ToString(n % 2);
 //         n /= 2;
 //     }
 //     Console.WriteLine(num);
 
 //     string rev_num = "";
-//     for(int i = num.Length - 1;i < 0;i--){
-//         rev_num += num[i];
+//     int i = 1;
+//     while(i <= num.Length){
+//         rev_num += num[num.Length - i];
+//         i++;
 //     }
-//     Console.WriteLine(rev_num);
 //     return rev_num;
 // }
 
