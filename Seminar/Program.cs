@@ -55,4 +55,42 @@
 
 
 
+// Задача 44: Не используя рекурсию выведите первые Н чисел 
+// последовательности Фибоначчи.Первые числа 0 и 1
+
+
+// void FiPrint(int n){
+//     int [] fi = new int[n];
+//     fi[0] = 0;
+//     fi[1] = 1;
+
+//     for(int i = 2;i < n;i++){
+//         fi[i] = fi[i - 1] + fi[i - 2];
+//     }
+//     Console.WriteLine("{0}",String.Join(",",fi));
+// }
+
+// Console.Write("Введите число n: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+
+// FiPrint(n);
+
+
+// Задача 45: Напишите программу,которая будет создавать копию заданного массива
+// с помощью поэлементного копирования
+
+// int [] ArrayCopy(int [] array){
+//     int[] copy = new int[array.Length - 1];
+//     for(int i = 0;i < array.Length;i++){
+//         copy[i] = array[i];
+//     }
+
+//     return copy;
+// }
+
+
+
+
+
+
 
